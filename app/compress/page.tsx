@@ -24,7 +24,7 @@ export default function Home() {
       const formData = new FormData();
       formData.append("file", file);
 
-      const response = await fetch("http://127.0.0.1:8000/compress", {
+      const response = await fetch("https://n-pdf-tool.onrender.com/compress", {
         method: "POST",
         body: formData,
       });

@@ -1,6 +1,6 @@
 import subprocess
 
-GS_PATH = r"C:\Program Files\gs\gs10.08.0\bin\gswin64c.exe"
+GS_PATH = "gs"
 
 
 def compress_pdf(input_file: str, output_file: str):
